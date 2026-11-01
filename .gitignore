@@ -1,0 +1,16 @@
+*.exe
+*.dll
+*.zip
+*.db
+*.sqlite*
+.env*
+!*.example
+storage-state.json
+runtime-state.json
+user-profile.md
+user-preferences.md
+conversations/
+brain/
+auth/
+logs/
+__pycache__/

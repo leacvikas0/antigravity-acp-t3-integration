@@ -1,0 +1,13 @@
+{
+  "proxy_exe": "C:\\Users\\YOUR_USER\\Downloads\\texture\\AIStudio2API\\aio\\aistudio2api.exe",
+  "work_dir": "C:\\Users\\YOUR_USER\\Downloads\\texture\\AIStudio2API\\aio",
+  "base_url": "http://127.0.0.1:2048",
+  "owner_exe": "C:\\Users\\YOUR_USER\\AppData\\Local\\Programs\\t3code\\T3 Code (Beta).exe",
+  "state_path": "C:\\Users\\YOUR_USER\\.gemini\\antigravity-acp\\proxy-supervisor\\runtime\\status.json",
+  "runtime_exe": "C:\\Program Files\\nodejs\\node.exe",
+  "mutex_name": "Local\\DSH_AIStudio_21ffd90f44c90a2557e4624e",
+  "native_exe": "C:\\Users\\YOUR_USER\\.gemini\\antigravity-acp\\proxy-supervisor\\t3-aistudio-watchdog.exe",
+  "keep_alive_exes": [
+    "C:\\Users\\YOUR_USER\\AppData\\Local\\Programs\\t3code\\T3 Code (Beta).exe"
+  ]
+}

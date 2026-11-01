@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "model": "gemini-4-argon",
+  "context_window_tokens": 1048576,
+  "compaction_ratio": 0.6198883056640625,
+  "max_output_tokens": 131072,
+  "use_model_reported_token_count": true
+}
