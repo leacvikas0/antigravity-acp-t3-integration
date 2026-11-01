@@ -4,6 +4,8 @@
 **Status:** Corrected research direction, no live patches or configuration changes  
 **Authoritative user requirement:** Native Antigravity does the orchestration. T3 Code is the excellent desktop/mobile user interface.
 
+> **New public-source findings (2026-11-01):** See [GOOGLE-ACP-SOURCE-AUDIT.md](GOOGLE-ACP-SOURCE-AUDIT.md). Google's published native protocol **already carries** `trajectory_id`, `parent_trajectory_id`, `STATE_WAITING_FOR_SUBAGENTS`, per-trajectory tool ownership, and event sequence/timestamps. The SDK explicitly ignores separate child state notifications on its normal step queue, and older ACP source inspections show an additional projection loss. The first job is now to verify and instrument the precise **official ACP 1.4.3 event producer/filter**, not to hypothesize that native child identity may not exist or to enable T3 delegation. The full standalone ACP server remains proprietary; the official download can be independently obtained from Google's CDN rather than requiring the user to provide it.
+
 ## 0. Correction to the earlier report
 
 The earlier [RESEARCH-REPORT.md](RESEARCH-REPORT.md) recommended restoring T3 Code's app-owned `delegate_task` mechanism. **That recommendation is not aligned with the user's goal.** T3's injected orchestration instructions and `t3-code` MCP tools are not wanted. The wrapper's deliberate removal of them is part of the intended product design, **not a bug to reverse**. Do not turn them back on in an implementation candidate unless the user explicitly changes that requirement.
